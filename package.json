@@ -1,0 +1,36 @@
+{
+  "name": "dealerservicewebqa-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test CymulateAssesment.spec.ts --config=playwright.config.ts --project=chromium"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/softwayteam/dealerservicewebqa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/softwayteam/dealerservicewebqa/issues"
+  },
+  "homepage": "https://bitbucket.org/softwayteam/dealerservicewebqa#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.32.3",
+    "allure-playwright": "^2.1.0"
+  },
+  "dependencies": {
+    "@seald-io/nedb": "^4.0.1",
+    "chalk": "^2.3.2",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.0",
+    "got": "^11.8.3",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.9.1",
+    "promises-utils.wait": "^0.0.4",
+    "wait": "^0.4.2"
+  }
+}
